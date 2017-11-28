@@ -1,0 +1,24 @@
+# Ignorando códigos compilados do Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+#Ignorando arquivos de configuração da IDE
+.idea/
+*.iml
+
+# Ignorando arquivos ocultos diversos (Exceto o .gitignore e a pasta que tras o Maven embutido)
+.*
+!.gitignore
+!.mvn/
+.classpath
+.project
+.settings
+target
+
