@@ -7,6 +7,7 @@ import com.example.demo.repository.filtro.PessoaFiltro;
 import io.restassured.http.ContentType;
 import org.junit.Test;
 import org.springframework.http.HttpStatus;
+import org.springframework.test.annotation.DirtiesContext;
 
 import java.util.Arrays;
 
@@ -18,6 +19,7 @@ import static org.hamcrest.Matchers.equalTo;
  * @author Bruno Nogueira de Oliveira
  * @date 09/09/17.
  */
+@DirtiesContext(classMode=DirtiesContext.ClassMode.AFTER_CLASS)
 public class PessoaResourceTest extends DemoApplicationTests {
 
     @Test
